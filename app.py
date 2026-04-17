@@ -377,7 +377,7 @@ with st.sidebar:
     st.markdown('<div class="qs-sec">🤖 Model</div>', unsafe_allow_html=True)
     model_name = st.selectbox(
         "LLM Model",
-        options=["gpt-4.1", "gpt-4o", "gpt-4o-mini"],
+        options=["gpt-5.4-mini", "gpt-5.4-mini", "gpt-5.4-2026-03-05"],
         index=0,
         label_visibility="collapsed",
     )
